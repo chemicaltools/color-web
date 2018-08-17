@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Color</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css" media="screen">
+		<link rel="stylesheet" href="css/Jcrop.min.css">
+		<link rel="stylesheet" href="css/color.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/Jcrop.min.js"></script>
+		<script src="js/color.js"></script>
+	</head>
+	<body>
+	<div class="navbar"><ul><li><a href="https://github.com/njzjz/Color-web">Source Code<!--{cn}源代码--></a></li><li><a href="javascript:if(tran.getLang()==='default'){tran.setLang('cn');}else {tran.setLang('default');}frushpage();">中文<!--{cn}English--></a></li></ul></div>
+		<section class="page-header">
+		  <h1 class="project-name">Color</h1>
+		  <h2 class="project-tagline">A tool to predict concentration based on the color.<!--{cn}根据物质颜色预测浓度的工具--></h2>
+		</section>
+		<section class="main-content" id="main-content">
+			<img src="example.jpg" id="target"/>
+			<input type="file" onchange="c(this);">
+			<div>
+				<div class="color-square">
+					<img src="example.jpg" id="preview" class="color-preview"/>
+				</div>
+				<div class="color-square" id="color"></div>
+				<div class="color-square color-font" id="RGB"></div>
+			</div>
+			<footer class="site-footer" style="clear:both">		
+				<span class="site-footer-credits">
+					<a href="https://njzjz.win/">Jinzhe Zeng's Blog<!--{cn}曾晋哲的博客--></a>|<a href="https://github.com/njzjz">Github</a>
+				</span>
+			</footer>
+		</section>
+		<script type="text/javascript" src="js/translater.min.js"></script>
+		<script type="text/javascript">
+		  var tran = new Translater();
+		</script>
+	</body>
+</html>

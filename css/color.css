@@ -1,0 +1,12 @@
+.color-square{
+	width:100px;height:100px;overflow:hidden;margin-left:5px;float:left;
+}
+.color-preview{
+	max-width:none!important;
+}
+.color-font{
+	font-weight:bold;font-size:19px;width:auto;height:auto;
+}
+.center{
+	margin: 0 auto;
+}
