@@ -49,7 +49,7 @@ function showPreview(coords){
 function hidePreview(){
 	$('#preview').stop().fadeOut('fast');
 }
-function c(v){
+function chooseimage(v){
 	var reader = new FileReader();
 	reader.onload = function (evt) {
 		imageurl=evt.target.result
