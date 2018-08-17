@@ -54,6 +54,7 @@ function chooseimage(v){
 	reader.onload = function (evt) {
 		imageurl=evt.target.result
 		jcrop_api.destroy()
+		$.Jcrop.component.DragState.prototype.touch = null; 
 		$("#target").attr("src",imageurl)
 		$("#preview").attr("src",imageurl)
 		getImageWidth(imageurl,function(w,h){
