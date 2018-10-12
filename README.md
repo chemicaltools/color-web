@@ -3,7 +3,7 @@ A web version tool to predict concentration based on the color.
 
 **Author**: Jinzhe Zeng
 
-**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
+**Email**: jzzeng@stu.ecnu.edu.cn
 
 [English version](https://color.njzjz.win/)
 
