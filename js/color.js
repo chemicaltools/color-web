@@ -39,7 +39,8 @@ function showPreview(coords){
 		marginLeft: '-' + Math.round(rx * coords.x) + 'px',
 		marginTop: '-' + Math.round(ry * coords.y) + 'px'
 	});
-	fac.getColorAsync(document.getElementById("target"),showcolor,{
+	image=document.getElementById("target");
+	fac.getColorAsync(image,showcolor,{
 			left:coords.x,
 			top:coords.y,
 			width:coords.w,
